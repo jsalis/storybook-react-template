@@ -1,0 +1,4 @@
+# https://docs.netlify.com/configure-builds/file-based-configuration
+[build]
+  command = "npm run build-storybook"
+  publish = "storybook-static"
